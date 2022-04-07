@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MODALCSS.CSS">
+    
+</head>
+<body>
+
+    <!-- <div>
+        <button onclick="openModal()">Registrarse</button>
+    </div> -->
+
+    <div class="modal" id="modalAdd">
+        <div class="modal-container">
+            <div onclick="closeModal()" class="close-modal">X</div>
+            <div>
+                <img id="img-modal" src="./Materiales/logo-blanco.png" alt="">
+
+            </div>
+            <h2 id="titulo-modal">Ingresa a tu cuenta</h2>
+            <p id="parrafo-modal">y empieza a conseguir resultados</p>
+            <p id="correo-modal">Correo</p>
+            <input type="text" name="Correo" id="ingresa-correo">
+            <p id="password-modal">Contraseña</p>
+            <input type="password" name="contraseña" id="ingresar-contraseña">
+            <div>
+                <input type="checkbox" name="" id="checkbox-recordarme">
+                <span id="recordarme-modal">Recordarme</span>
+                <span id="olvidar-contraseña-modal">Olvide mi contraseña</span>
+            </div>
+            <div>            
+                <button id="boton-ingreso-modal">Ingresar</button>
+            </div>
+            <div>
+                <span id="ultimo-parrafo-modal">Aun no tienes cuenta?</span>
+            <span id="registro-modal">Registrarse</span>    
+            </div>
+        </div>
+    </div>
+
+    
+    
+</body>
+
+
+
+<script>
+
+        const modalAdd = document.querySelector('#modalAdd')
+
+        const openModal = () => {
+         modalAdd.style.display = 'flex'}
+
+        const closeModal = () => {
+        modalAdd.style.display = 'none'}
+
+
+</script>
+
+
+
+
+
+
+
+
+</html>
