@@ -5,122 +5,165 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="proyecto.css">
 </head>
 <body>
 
     <header>
-        <div>
-            <img src="" alt="foto header">
+        <div id="imagen-header">
+            <img src="./Materiales/logo-verde.png" alt="" style="width: 3%;" >
+            <h3 id="parrafo-flex-imagen">FLEX</h3>
         </div>
-        <div>
-            <ul>
-                <li>Producto</li>
-                <li>Caracteristicas</li>
-                <li>Precios</li>
-            </ul>
+        <div id="primera-lista-header">
+            <h3 class="header-menu">Producto</h3>
+            <h3 class="header-menu">Caracteristicas</h3>
+            <h3 class="header-menu">Precios</h3>
         </div>
-        <div>
-            <button>Ingresar</button>
-            <button>Registrarse</button>
+        <div id="primeros-botones">
+            <button class="botones-header">Ingresar</button>
+            <button class="botones-header2">Registrarse</button>
         </div>
     </header>
 
+
+
+
+
+
+
     <main>
-        <div>
+        <div id="primer-grid-main">
             <section>
-                <p>Nuevo</p>
-                <h1>La plataforma para las empresas del futuro</h1>
-                <p>Productos pensados para los negocios del proximo siglo</p>
-                <button>Solicitar Demo</button>
-                <button>Registrarse</button>
+                <p id="parrafo-nuevo">Nuevo</p>
+                <h1 id="titulo-main-primer-div">La plataforma para las empresas del futuro</h1>
+                <p id="segundo-parrafo-main">Productos pensados para los negocios del proximo siglo</p>
+                <button id="botones-main">Solicitar Demo</button>
+                <button id="botones-main2">Registrarse</button>
+            </section>
+            <section>
+                <img id="foto-circulos-anaranjados" src="./Materiales/circle3-yellow.svg" alt="" style="width: 20%;">
+                <img id="foto-main-grande" src="./Materiales/header.jpg" alt="" style="width: 60%;">
+                <img id="foto-puntos-azules" src="./Materiales/dots3-blue.svg" alt="" style="width: 15%;">
             </section>
         </div>
-        <div>
-            <section>
-                <img src="" alt="foto main esquina sup izq">
-                <img src="" alt="foto main">
-                <img src="" alt=" foto main esquina inf der">
-            </section>
-        </div>
+
+
+
+        <div class="sepracion-uno-main">
+            <div class="container">
+                <article class="card">
+                    <img class="simbolos" src="./Materiales/mail-icon.svg" alt="fotomail" style="width: 22%;">
+                    <h2 class="titulos-dentro-de-cards">Capacitacion</h2>
+                    <p class="texto-dentro-de-cards">Asistencia y capacitacion de primer nivel</p>
+                </article>
+            </div>
+            <div class="container">
+                <article class="card">
+                    <img class="simbolos" src="./Materiales/analytics-icon.svg" alt="fotoanalitics" style="width: 22%;">
+                    <h2 class="titulos-dentro-de-cards">Analíticas claras</h2>
+                    <p class="texto-dentro-de-cards">Disfruta de un dashboard de analiticas claras y accionables</p>
+                </article>
+            </div>
+            <div class="container">
+                <article class="card">
+                    <img class="simbolos" src="./Materiales/people-icon.svg" alt="foto people" style="width: 22%;">
+                    <h2 class="titulos-dentro-de-cards">Soluciones para equipos</h2>
+                    <p class="texto-dentro-de-cards">Facilita el accionar de tu empresa con nuestra suite de herramientas</p>
+                </article>
+            </div>
+        </div> 
+
+        
+        
+
+
         <div>
             <article>
-                <img src="" alt="Img capacitacion">
-                <h2>Capacitacion</h2>
-                <p>Asistencia y capacitacion de primer nivel</p>
+                <h2 id="Notificacion">Precios flexibles que escalan contigo</h2>
+                <p id="Parrafo-notificacion">Nuestra facturacion se ajusta al tamaño de tu empresa. Tiempo de prueba de 7 dias en todos nuestros planes. </p>
             </article>
         </div>
-        <div>
-            <article>
-                <img src="" alt="Img analiticas">
-                <h2>Analíticas claras</h2>
-                <p>Disfruta de un dashboard de analiticas claras y accionables</p>
-            </article>
+
+
+
+        <div class="sepracion-uno-main">
+            <div class="container2">
+                <section class="card2">
+                    <p class="precio-plan">Precio</p>
+                    <p class="nombre-plan">Plan báscio</p>
+                    <h3 class="precio-plan-numero">$10/mes</h3>
+                    <p class="facturado">Facturado anualmente</p>
+                    <ol class="listas-planes">
+                        <li>1GB de almacenamiento</li>
+                        <li>Dashboard completo</li>
+                        <li>Asistencia por correo</li>
+                        <li>Hasta 10 miembros</li>
+                    </ol>
+                    <button class="boton-demos">Solicitar Demo</button>
+                </section>
+            </div>
+            <div class="container2">
+                <section class="card2">
+                    <p class="precio-plan">Precio</p>
+                    <p class="nombre-plan">Plan freelancer</p>
+                    <h3 class="precio-plan-numero">$99/mes</h3>
+                    <p class="facturado">Facturado anualmente</p>
+                    <ol class="listas-planes">
+                        <li>Caracteristicas basicas</li>
+                        <li>Asistencia preferencial</li>
+                        <li>100GB de almacenamiento</li>
+                        <li>Hasta 100 miembros</li>
+                    </ol>
+                    <button class="boton-demos">Solicitar Demo</button>
+                </section>
+            </div>
+            <div class="container2">
+                <section class="card2">
+                    <p class="precio-plan">Precio</p>
+                    <p class="nombre-plan">Plan empresas</p>
+                    <h3 class="precio-plan-numero">$799/mes</h3>
+                    <p class="facturado">Facturado anualmente</p>
+                    <ol class="listas-planes">
+                        <li>Caracteristicas freelancer</li>
+                        <li>1TB de almacenamiento</li>
+                        <li>Asistencia telefonica 24/7</li>
+                        <li>Miembros ilimitados</li>
+                    </ol>
+                    <button class="boton-demos">Solicitar Demo</button>
+                </section>    
+            </div>
         </div>
-        <div>
-            <article>
-                <img src="" alt="img equipos">
-                <h2>Soluciones para equipos</h2>
-                <p>Facilita el accionar de tu empresa con nuestra suite de herramientas</p>
-            </article>
-        </div>
-        <div>
-            <article>
-                <h2>Precios flexibles que escalan contigo</h2>
-                <p>Nuestra facturacion se ajusta al tamaño de tu empresa. Tiempo de prueba de 7 dias en todos nuestros planes. </p>
-            </article>
-        </div>
-        <div>
-            <section>
-                <p>Precio</p>
-                <p>Plan báscio</p>
-                <h3>$10/mes</h3>
-                <p>Facturado anualmente</p>
-                <ol>
-                    <li>1GB de almacenamiento</li>
-                    <li>Dashboard completo</li>
-                    <li>Asistencia por correo</li>
-                    <li>Hasta 10 miembros</li>
-                </ol>
-                <button>Solicitar Demo</button>
-            </section>
-        </div>
-        <div>
-            <section>
-                <p>Precio</p>
-                <p>Plan freelancer</p>
-                <h3>$99/mes</h3>
-                <p>Facturado anualmente</p>
-                <ol>
-                    <li>Caracteristicas basicas</li>
-                    <li>Asistencia preferencial</li>
-                    <li>100GB de almacenamiento</li>
-                    <li>Hasta 100 miembros</li>
-                </ol>
-                <button>Solicitar Demo</button>
-            </section>
-        </div>
-        <div>
-            <section>
-                <p>Precio</p>
-                <p>Plan empresas</p>
-                <h3>$799/mes</h3>
-                <p>Facturado anualmente</p>
-                <ol>
-                    <li>Caracteristicas freelancer</li>
-                    <li>1TB de almacenamiento</li>
-                    <li>Asistencia telefonica 24/7</li>
-                    <li>Miembros ilimitados</li>
-                </ol>
-                <button>Solicitar Demo</button>
-            </section>    
-        </div>
+
+
+
+
+
+
+
+        
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <footer>
-        <div>
-            <img src="" alt="">
+        <div id="unica-imagen-footer">
+            <img src="./Materiales/logo-verde.png" alt="" style="width: 2%;">
+            <H3 id="footer-flex">FLEX</H3>
         </div>
         <div>
-            <ul>
+            <ul id="lista-footer">
                 <li>Producto</li>
                 <li>Funcionalidades</li>
                 <li>Precios</li>
@@ -131,7 +174,7 @@
             </ul>
         </div>
         <div>
-            <p>2022 Flex. Un producto ficticio de Senpai.</p>
+            <p id="parrafo-footer">2022 Flex. Un producto ficticio de Senpai.</p>
         </div>
     </footer>
 
