@@ -171,7 +171,7 @@
     
     /* HEADER NO SE TOCA */
     header
-    {margin-bottom: 5cm;}
+    {margin-bottom: 5cm}
     
     #imagen-header
     {margin-left: 20px;
@@ -180,8 +180,8 @@
     
     #parrafo-flex-imagen
     {font-size: 25px;
-    margin-left: 70px;
-    margin-top: -50px;
+    margin-left: 80px;
+    margin-top: -42px;
     padding-bottom: 30px;}
     
     #primera-lista-header
@@ -285,9 +285,10 @@
     
     
     #foto-circulos-anaranjados
-    {position: absolute ;
+    {position:;
     margin-top: 50px;
-    margin-left: -150px}
+    margin-left: -150px;
+    margin-bottom: -180px;}
     
     
     #foto-main-grande
@@ -501,8 +502,7 @@
             {display: grid; 
             grid-template-columns: 1fr ;
             grid-template-rows: 1fr 1fr 1fr 1fr 1f 1fr 1fr ;
-            width: 100 pw; height: 100 ph;
-            background-color: lightblue;}
+            width: 100 pw; height: 100 ph;}
     
     #imagen-header{
     margin-left: 20px;
@@ -563,11 +563,11 @@
     
     
     #foto-puntos-azules
-    {position: absolute;
-    margin-left: -950px;
+    {position: relative;
+    margin-left: -890px;
     margin-top: -55px;
-    margin-bottom: -2000px;
-    width: 200px;
+    margin-bottom: 100px;
+    width: 100px;
     height: 100px;}
 
 
@@ -725,23 +725,20 @@
     color: #f7f8f9; 
     font-size: 0.6cm;
     width: 375px;
-    margin-top: 910px;
+    margin-top: 1050px;
     margin-left: 0px;
     border-radius: 12px;}
 
     #img-footer{
         width: 50px;
         height: 50px;
-        margin-left: 170px;
-    }
+        margin-left: 170px;}
 
         #footer-flex{
             display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 1cm;
-            
-        }
+        margin-top: 1cm;}
 
 
     #un-div-footer
@@ -768,6 +765,46 @@
     
     #footer-flex
     {margin-left:15px ;}
+
+
+
+    .modal{
+        display: none;
+        background-color: rgba(0,0,0,0.4);
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        position: fixed;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;}
+    
+    
+    .modal-container{
+        background-color: #2a3342;
+        min-width: 800px;
+        max-width: 90%;
+        min-height: 300px;
+        max-height: 90%;
+        padding: 20px;
+        border-radius: 15px;
+        position: absolute;}
+    
+    .close-modal{
+        background-color: #2a3342;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-size: 1.3rem;
+        border-radius: 50%;
+        position: absolute;
+        right: 230px;
+        top: 0px;
+        cursor:pointer}
     
 
 
